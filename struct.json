@@ -1,0 +1,27 @@
+{
+  "vec3": {
+    "class_name": "Vector3",
+    "define": { 
+        "x": "float", 
+        "y": "float", 
+        "z": "float" 
+    },
+    "is_generate": 0 
+  },
+  "int_array_wrapper":{
+    "class_name": "IntArrayWrapper",
+    "define": { 
+      "data": "array<int>"
+    },
+    "is_generate": 1 
+  },
+  "test_strcut":{
+    "class_name": "TestStruct",
+    "define": { 
+      "star1": "dict<array<string>,int>",
+      "star3": "dict<dict<int,string>,array<&vec3>>",
+      "star4": "dict<array<string>,int>"
+    },
+    "is_generate": 1 
+  }
+}
